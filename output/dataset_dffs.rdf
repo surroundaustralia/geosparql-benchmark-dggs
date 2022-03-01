@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:geo="http://www.opengis.net/ont/geosparql#"
+   xmlns:my="http://example.org/ApplicationSchema#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#EExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#LineString"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#LineString"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; LineString(-83.4 34.0, -83.3 34.3)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:LineString srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84" xmlns:gml="http://www.opengis.net/ont/gml"&gt;&lt;gml:posList&gt;-83.4 34.0 -83.3 34.3&lt;/gml:posList&gt;&lt;/gml:LineString&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072525885 P0072525888 P0072528222 P0072528224 P0072528225 P0072528227 P0072528251 P0072528253 P0072528254 P0072528256 P0072528275 P0072528278 P0072528280 P0072528283 P0072528512 P0072528514 P0072528515 P0072528517 P0072528541 P0072528543 P0072528544 P0072528546 P0072528565 P0072528568 P0072528570 P0072528573 P0072528782 P0072528785 P0072528788 P0072528802 P0072528804 P0072528805 P0072528807 P0072528831 P0072528833 P0072528834 P0072528836 P0072528860 P0072552121 P0072552122 P0072552124 P0072552127 P0072552150 P0072552151 P0072552153 P0072552156 P0072552172 P0072552175 P0072552178 P0072552180 P0072552411 P0072552412 P0072552414 P0072552417 P0072552440 P0072552441 P0072552443 P0072552446 P0072552462 P0072552465 P0072552468 P0072552470 P0072552682 P0072552685 P0072552688 P0072552701 P0072552702 P0072552704 P0072552707 P0072552730 P0072552731 P0072552733 P0072552736 P0072552760 P0072554858 P0072554882 P0072554885 P0072554887 P0072554888 P0072555021 P0072555022 P0072555024 P0072555027 P0072555050 P0072555051 P0072555053 P0072555056 P0072555072 P0072555075 P0072555077 P0072555078 P0072555080 P0072555311 P0072555314 P0072555316 P0072555317 P0072555338 P0072555340 P0072555343 P0072555346 P0072555362 P0072555365 P0072555367 P0072555368 P0072555601 P0072555604 P0072555606 P0072555607 P0072555630 P0072555633 P0072555636 P0072557221 P0072557224 P0072557226 P0072557227 P0072557248 P0072557250 P0072557253 P0072557256 P0072557272 P0072557275 P0072557277 P0072557278 P0072557511 P0072557514 P0072557516 P0072557517 P0072557538 P0072557540 P0072557543 P0072557546 P0072557562 P0072557565 P0072557567 P0072557568 P0072557755 P0072557758 P0072557782 P0072557784 P0072557785 P0072557787 P0072557801 P0072557804 P0072557806 P0072557807 P0072557830 P0072557833 P0072581121 P0072581123 P0072581124 P0072581126 P0072581145 P0072581148 P0072581150 P0072581153 P0072581172 P0072581174 P0072581175 P0072581177 P0072581411 P0072581413 P0072581414 P0072581416 P0072581435 P0072581438 P0072581440 P0072581443 P0072581462 P0072581464 P0072581465 P0072581467 P0072581701 P0080066570 P0080066573 P0080066576 P0080066802 P0080066805 P0080066808 P0080066810 P0080066831 P0080066832 P0080066834 P0080066837 P0080066860 P0080066861 P0080066863 P0080066866 P0080300122 P0080300125 P0080300127 P0080300128 P0080300151 P0080300154 P0080300156 P0080300157 P0080300178 P0080300180 P0080300183 P0080300186 P0080300200 P0080300412 P0080300415 P0080300417 P0080300418 P0080300441 P0080300444 P0080300446 P0080300447 P0080300468 P0080300470 P0080300473 P0080300476 P0080300688 P0080300702 P0080300705 P0080300707 P0080300708 P0080300731 P0080300734 P0080300736 P0080300737 P0080300760 P0080300763 P0080300766 P0080303022 P0080303025 P0080303027 P0080303028 P0080303051 P0080303054 P0080303056 P0080303057 P0080303078 P0080303080 P0080303083 P0080303086 P0080303312 P0080303315 P0080303317 P0080303318 P0080303341 P0080303343 P0080303344 P0080303346 P0080303365 P0080303368 P0080303370 P0080303373 P0080303602 P0080303604 P0080303605 P0080303607 P0080303631 P0080303633 P0080303634 P0080303636 P0080303660 P0080303663))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#APointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.4 34.3)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.4 34.3&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072287461))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#E">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#EExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#EExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#EExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#E"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#E"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#E"/>
+    <geo:sfCrosses rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#K">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#KExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#KExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#KExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#G">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#GExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#GPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#GExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#GExactGeom"/>
+    <geo:rcc8ntpp rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#JExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            Polygon((-77.089005 38.913574,-77.029953 38.913574,-77.029953 38.886321,-77.089005 38.886321,-77.089005 38.913574))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-77.089005 38.913574 -77.029953 38.913574 -77.029953 38.886321 -77.089005 38.886321 -77.089005 38.913574&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P01084256 P01084257 P01084258 P010842457 P010842458 P010842481 P010842482 P010842484 P010842485 P010842487 P010842488 P010842536 P010842537 P010842538 P010842546 P010842547 P010842548 P010842556 P010842557 P010842558 P010842721 P010842722 P010842800 P010842801 P010842802 P010842810 P010842811 P010842812 P010842820 P010842821 P010842822 P010850336 P010850360 P010850363 P010850366 P010850600 P0108424561 P0108424562 P0108424564 P0108424565 P0108424567 P0108424568 P0108424801 P0108424802 P0108424804 P0108424805 P0108424807 P0108424808 P0108424831 P0108424832 P0108424834 P0108424835 P0108424837 P0108424838 P0108424861 P0108424862 P0108424864 P0108424865 P0108424867 P0108424868 P0108427201 P0108427202 P0108427204 P0108427205 P0108427207 P0108427208 P0108427231 P0108427232 P0108427234 P0108427235 P0108427240 P0108427241 P0108427242 P0108427243 P0108427244 P0108427245 P0108427250 P0108427251 P0108427252 P0108427253 P0108427254 P0108427255 P0108428030 P0108428031 P0108428032 P0108428033 P0108428034 P0108428035 P0108428040 P0108428041 P0108428042 P0108428043 P0108428044 P0108428045 P0108428050 P0108428051 P0108428052 P0108428053 P0108428054 P0108428055 P0108428130 P0108428131 P0108428132 P0108428133 P0108428134 P0108428135 P0108428140 P0108428141 P0108428142 P0108428143 P0108428144 P0108428145 P0108428150 P0108428151 P0108428152 P0108428153 P0108428154 P0108428155 P0108428230 P0108428231 P0108428232 P0108428233 P0108428234 P0108428235 P0108428240 P0108428241 P0108428242 P0108428243 P0108428244 P0108428245 P0108428250 P0108428251 P0108428252 P0108428253 P0108428254 P0108428255 P0108503370 P0108503371 P0108503373 P0108503374 P0108503376 P0108503377 P0108503610 P0108503611 P0108503613 P0108503614 P0108503616 P0108503617 P0108503640 P0108503641 P0108503643 P0108503644 P0108503646 P0108503647 P0108503670 P0108503671 P0108503673 P0108503674 P0108503676 P0108503677 P0108506010 P0108506011 P0108506013 P0108506014 P0108506016 P0108506017 P0108506030 P0108506031 P0108506032 P0108506033 P0108506034 P0108506035 P0108506040 P0108506041 P0108506043 P0108506044))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#LExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-88.38 31.95)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-88.38 31.95&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0067413760))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#J">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#JExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#JExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#JExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#CExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.2 34.3, -83.0 34.3, -83.0 34.5, -83.2 34.5, -83.2 34.3))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.2 34.3 -83.0 34.3 -83.0 34.5 -83.2 34.5 -83.2 34.3&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0080044 P0080045 P0080047 P0080048 P0080053 P0080054 P0080056 P0080057 P0080071 P0080072 P0080074 P0080075 P0080080 P0080081 P0080083 P0080084 P00800431 P00800432 P00800434 P00800435 P00800437 P00800438 P00800461 P00800462 P00800464 P00800465 P00800467 P00800468 P00800701 P00800702 P00800704 P00800705 P00800707 P00800708 P00800731 P00800732 P00800734 P00800735 P00800737 P00800738 P00800761 P00800762 P00800770 P00800771 P00800772 P00800780 P00800781 P00800782 P00800860 P00800861 P00800862 P00800870 P00800871 P00800872 P008004068 P008004076 P008004077 P008004078 P008004086 P008004087 P008004088 P008004166 P008004167 P008004168 P008004176 P008004177 P008004178 P008004186 P008004187 P008004188 P008004266 P008004267 P008004268 P008004276 P008004277 P008004278 P008004286 P008004287 P008004288 P008004302 P008004305 P008004308 P008004332 P008004335 P008004338 P008004362 P008004365 P008004368 P008004602 P008004605 P008004608 P008004632 P008004635 P008004638 P008004662 P008004665 P008004668 P008005066 P008005067 P008005068 P008005076 P008005077 P008005078 P008005086 P008005087 P008005088 P008005166 P008005167 P008005168 P008005176 P008005177 P008005178 P008005186 P008005187 P008005188 P008005266 P008005500 P008005503 P008005506 P008005530 P008005533 P008005536 P008005560 P008005563 P008005566 P008005800 P008005803 P008005806 P008005830 P008005833 P008005836 P008005860 P008005863 P008005866 P008007002 P008007005 P008007008 P008007032 P008007035 P008007038 P008007062 P008007065 P008007068 P008007302 P008007305 P008007308 P008007332 P008007335 P008007338 P008007362 P008007365 P008007368 P008007602 P008007605 P008007608 P008007632 P008007635 P008007640 P008007641 P008007642 P008007643 P008007644 P008007645 P008007650 P008007651 P008007652 P008007653 P008007654 P008007655 P008007730 P008007731 P008007732 P008007733 P008007734 P008007735 P008007740 P008007741 P008007742 P008007743 P008007744 P008007745 P008007750 P008007751 P008007752 P008007753 P008007754 P008007755 P008007830 P008007831 P008007832 P008007833 P008007834 P008007835 P008007840 P008007841 P008007842 P008007843 P008007844 P008007845 P008007850 P008007851 P008007852 P008007853 P008007854 P008007855 P008008200 P008008203 P008008206 P008008230 P008008233 P008008236 P008008260 P008008263 P008008266 P008008500 P008008503 P008008506 P008008530 P008008533 P008008536 P008008560 P008008563 P008008566 P008008630 P008008631 P008008632 P008008633 P008008634 P008008635 P008008640 P008008641 P008008642 P008008643 P008008644 P008008645 P008008650 P008008651 P008008652 P008008653 P008008654 P008008655 P008008730 P008008731 P008008732 P008008733 P008008734 P008008735 P008008740 P008008741 P008008742 P008008743 P008008744 P008008745 P008008750 P008008751 P008008752 P008008753 P008008754 P008008755 P008008800 P008008803 P008008806 P008008830 P008008833 P0080040656 P0080040657 P0080040658 P0080040736 P0080040737 P0080040738 P0080040746 P0080040747 P0080040748 P0080040756 P0080040757 P0080040758 P0080040836 P0080040837 P0080040838 P0080040846 P0080040847 P0080040848 P0080040856 P0080040857 P0080040858 P0080041636 P0080041637 P0080041638 P0080041646 P0080041647 P0080041648 P0080041656 P0080041657 P0080041658 P0080041736 P0080041737 P0080041738 P0080041746 P0080041747 P0080041748 P0080041756 P0080041757 P0080041758 P0080041836 P0080041837 P0080041838 P0080041846 P0080041847 P0080041848 P0080041856 P0080041857 P0080041858 P0080042636 P0080042637 P0080042638 P0080042646 P0080042647 P0080042648 P0080042656 P0080042657 P0080042658 P0080042736 P0080042737 P0080042738 P0080042746 P0080042747 P0080042748 P0080042756 P0080042757 P0080042758 P0080042836 P0080042837 P0080042838 P0080042846 P0080042847 P0080042848 P0080042856 P0080042857 P0080042858 P0080050636 P0080050637 P0080050638 P0080050646 P0080050647 P0080050648 P0080050656 P0080050657 P0080050658 P0080050736 P0080050737 P0080050738 P0080050746 P0080050747 P0080050748 P0080050756 P0080050757 P0080050758 P0080050836 P0080050837 P0080050838 P0080050846 P0080050847 P0080050848 P0080050856 P0080050857 P0080050858 P0080051636 P0080051637 P0080051638 P0080051646 P0080051647 P0080051648 P0080051656 P0080051657 P0080051658 P0080051736 P0080051737 P0080051738 P0080051746 P0080051747 P0080051748 P0080051756 P0080051757 P0080051758 P0080051836 P0080051837 P0080051838 P0080051846 P0080051847 P0080051848 P0080051856 P0080051857 P0080051858 P0080052636 P0080052637 P0080052638 P0080076380 P0080076381 P0080076382 P0080076460 P0080076461 P0080076462 P0080076470 P0080076471 P0080076472 P0080076480 P0080076481 P0080076482 P0080076560 P0080076561 P0080076562 P0080076570 P0080076571 P0080076572 P0080076580 P0080076581 P0080076582 P0080077360 P0080077361 P0080077362 P0080077370 P0080077371 P0080077372 P0080077380 P0080077381 P0080077382 P0080077460 P0080077461 P0080077462 P0080077470 P0080077471 P0080077472 P0080077480 P0080077481 P0080077482 P0080077560 P0080077561 P0080077562 P0080077570 P0080077571 P0080077572 P0080077580 P0080077581 P0080077582 P0080078360 P0080078361 P0080078362 P0080078370 P0080078371 P0080078372 P0080078380 P0080078381 P0080078382 P0080078460 P0080078461 P0080078462 P0080078470 P0080078471 P0080078472 P0080078480 P0080078481 P0080078482 P0080078560 P0080078561 P0080078562 P0080078570 P0080078571 P0080078572 P0080078580 P0080078581 P0080078582 P0080086360 P0080086361 P0080086362 P0080086370 P0080086371 P0080086372 P0080086380 P0080086381 P0080086382 P0080086460 P0080086461 P0080086462 P0080086470 P0080086471 P0080086472 P0080086480 P0080086481 P0080086482 P0080086560 P0080086561 P0080086562 P0080086570 P0080086571 P0080086572 P0080086580 P0080086581 P0080086582 P0080087360 P0080087361 P0080087362 P0080087370 P0080087371 P0080087372 P0080087380 P0080087381 P0080087382 P0080087460 P0080087461 P0080087462 P0080087470 P0080087471 P0080087472 P0080087480 P0080087481 P0080087482 P0080087560 P0080087561 P0080087562 P0080087570 P0080087571 P0080087572 P0080087580 P0080087581 P0080087582 P0080088360 P0080088361 P0080088362))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#A">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#AExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#APointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#AExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#AExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:sfIntersects rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:sfTouches rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:ehMeet rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:rcc8ec rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:sfContains rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:ehContains rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:sfOverlaps rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:ehOverlap rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:rcc8po rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:ehCovers rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8tppi rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8ntppi rdf:resource="http://example.org/ApplicationSchema#G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#FExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.4 34.4)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.4 34.4&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072281137))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#BExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.6 34.1, -83.4 34.1, -83.4 34.3, -83.6 34.3, -83.6 34.1))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.6 34.1 -83.4 34.1 -83.4 34.3 -83.6 34.3 -83.6 34.1&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P007251 P0072520 P0072523 P0072526 P0072540 P0072541 P0072542 P0072550 P00722688 P00722766 P00722767 P00722768 P00722776 P00722777 P00722778 P00722786 P00722787 P00722788 P00722866 P00722867 P00722868 P00722876 P00725022 P00725025 P00725028 P00725052 P00725055 P00725058 P00725082 P00725085 P00725088 P00725210 P00725213 P00725216 P00725240 P00725243 P00725246 P00725270 P00725273 P00725276 P00725322 P00725325 P00725328 P00725510 P00725513 P00725516 P007226848 P007226856 P007226857 P007226858 P007226872 P007226875 P007226878 P007227636 P007227637 P007227638 P007227646 P007227647 P007227648 P007227656 P007227657 P007227658 P007227736 P007227737 P007227738 P007227746 P007227747 P007227748 P007227756 P007227757 P007227758 P007227836 P007227837 P007227838 P007227846 P007227847 P007227848 P007227856 P007227857 P007227858 P007228636 P007228637 P007228638 P007228646 P007228647 P007228648 P007228656 P007228657 P007228658 P007228736 P007228737 P007228738 P007250212 P007250215 P007250218 P007250242 P007250245 P007250248 P007250272 P007250275 P007250278 P007250512 P007250515 P007250518 P007250542 P007250545 P007250548 P007250572 P007250575 P007250578 P007250812 P007250815 P007250818 P007250842 P007250845 P007250848 P007250872 P007250875 P007250878 P007253212 P007253215 P007253218 P007253242 P007253245 P007253248 P007253272 P007253275 P007253278 P007253512 P007253515 P007253518 P007253520 P007253521 P007253522 P007253523 P007253524 P007253525 P007253526 P007253527 P007253528 P007254300 P007254301 P007254302 P007254303 P007254304 P007254305 P007254306 P007254307 P007254308 P007254310 P007254311 P007254312 P007254313 P007254314 P007254315 P007254316 P007254317 P007254318 P007254320 P007254321 P007254322 P007254323 P007254324 P007254325 P007254326 P007254327 P007254328 P007254400 P007254401 P007254402 P007254403 P007254404 P007254405 P007254406 P007254407 P007254408 P007254410 P007254411 P007254412 P007254413 P007254414 P007254415 P007254416 P007254417 P007254418 P007254420 P007254421 P007254422 P007254423 P007254424 P007254425 P007254426 P007254427 P007254428 P007254500 P007254501 P007254502 P007254503 P007254504 P007254505 P007254506 P007254507 P007254508 P007254510 P007254511 P007254512 P007254513 P007254514 P007254515 P007254516 P007254517 P007254518 P007254520 P007254521 P007254522 P007254523 P007254524 P007254525 P007254526 P007254527 P007254528 P007255300 P007255301 P007255302 P007255303 P007255304 P007255305 P007255306 P007255307 P007255308 P007255310 P007255311 P007255312 P007255313 P007255314 P007255315 P007255316 P007255317 P007255318 P007255320 P007255321 P007255322 P007255323 P007255324 P007255325 P007255326 P007255327 P007255328 P007255400 P007255401 P007255402 P007255403 P007255404 P007255405 P007255406 P007255407 P007255408 P0072268472 P0072268475 P0072268478 P0072268712 P0072268715 P0072268718 P0072268742 P0072268745 P0072268748 P0072268772 P0072268775 P0072268778 P0072287460 P0072287461 P0072287463 P0072287464 P0072287466 P0072287467 P0072287700 P0072287701 P0072287703 P0072287704 P0072287706 P0072287707 P0072287730 P0072287731 P0072287733 P0072287734 P0072287736 P0072287737 P0072287760 P0072287761 P0072287763 P0072287764 P0072287766 P0072287767 P0072502112 P0072502115 P0072502118 P0072502142 P0072502145 P0072502148 P0072502172 P0072502175 P0072502178 P0072502412 P0072502415 P0072502418 P0072502442 P0072502445 P0072502448 P0072502472 P0072502475 P0072502478 P0072502712 P0072502715 P0072502718 P0072502742 P0072502745 P0072502748 P0072502772 P0072502775 P0072502778 P0072505112 P0072505115 P0072505118 P0072505142 P0072505145 P0072505148 P0072505172 P0072505175 P0072505178 P0072505412 P0072505415 P0072505418 P0072505442 P0072505445 P0072505448 P0072505472 P0072505475 P0072505478 P0072505712 P0072505715 P0072505718 P0072505742 P0072505745 P0072505748 P0072505772 P0072505775 P0072505778 P0072508112 P0072508115 P0072508118 P0072508142 P0072508145 P0072508148 P0072508172 P0072508175 P0072508178 P0072508412 P0072508415 P0072508418 P0072508442 P0072508445 P0072508448 P0072508472 P0072508475 P0072508478 P0072508712 P0072508715 P0072508718 P0072508742 P0072508745 P0072508748 P0072508772 P0072508775 P0072508778 P0072521100 P0072521101 P0072521103 P0072521104 P0072521106 P0072521107 P0072521130 P0072521131 P0072521133 P0072521134 P0072521136 P0072521137 P0072521160 P0072521161 P0072521163 P0072521164 P0072521166 P0072521167 P0072521400 P0072521401 P0072521403 P0072521404 P0072521406 P0072521407 P0072521430 P0072521431 P0072521433 P0072521434 P0072521436 P0072521437 P0072521460 P0072521461 P0072521463 P0072521464 P0072521466 P0072521467 P0072521700 P0072521701 P0072521703 P0072521704 P0072521706 P0072521707 P0072521730 P0072521731 P0072521733 P0072521734 P0072521736 P0072521737 P0072521760 P0072521761 P0072521763 P0072521764 P0072521766 P0072521767 P0072524100 P0072524101 P0072524103 P0072524104 P0072524106 P0072524107 P0072524130 P0072524131 P0072524133 P0072524134 P0072524136 P0072524137 P0072524160 P0072524161 P0072524163 P0072524164 P0072524166 P0072524167 P0072524400 P0072524401 P0072524403 P0072524404 P0072524406 P0072524407 P0072524430 P0072524431 P0072524433 P0072524434 P0072524436 P0072524437 P0072524460 P0072524461 P0072524463 P0072524464 P0072524466 P0072524467 P0072524700 P0072524701 P0072524703 P0072524704 P0072524706 P0072524707 P0072524730 P0072524731 P0072524733 P0072524734 P0072524736 P0072524737 P0072524760 P0072524761 P0072524763 P0072524764 P0072524766 P0072524767 P0072527100 P0072527101 P0072527103 P0072527104 P0072527106 P0072527107 P0072527130 P0072527131 P0072527133 P0072527134 P0072527136 P0072527137 P0072527160 P0072527161 P0072527163 P0072527164 P0072527166 P0072527167 P0072527400 P0072527401 P0072527403 P0072527404 P0072527406 P0072527407 P0072527430 P0072527431 P0072527433 P0072527434 P0072527436 P0072527437 P0072527460 P0072527461 P0072527463 P0072527464 P0072527466 P0072527467 P0072527700 P0072527701 P0072527703 P0072527704 P0072527706 P0072527707 P0072527730 P0072527731 P0072527733 P0072527734 P0072527736 P0072527737 P0072527760 P0072527761 P0072527763 P0072527764 P0072527766 P0072527767 P0072532112 P0072532115 P0072532118 P0072532142 P0072532145 P0072532148 P0072532172 P0072532175 P0072532178 P0072532412 P0072532415 P0072532418 P0072532442 P0072532445 P0072532448 P0072532472 P0072532475 P0072532478 P0072532712 P0072532715 P0072532718 P0072532742 P0072532745 P0072532748 P0072532772 P0072532775 P0072532778 P0072535112 P0072535115 P0072535118 P0072535142 P0072535145 P0072535148 P0072535172 P0072535175 P0072535178 P0072551100 P0072551101 P0072551103 P0072551104 P0072551106 P0072551107 P0072551130 P0072551131 P0072551133 P0072551134 P0072551136 P0072551137 P0072551160 P0072551161 P0072551163 P0072551164 P0072551166 P0072551167 P0072551400 P0072551401 P0072551403 P0072551404 P0072551406 P0072551407 P0072551430 P0072551431 P0072551433 P0072551434 P0072551436 P0072551437 P0072551460 P0072551461 P0072551463 P0072551464 P0072551466 P0072551467 P0072551700 P0072551701 P0072551703 P0072551704 P0072551706 P0072551707 P0072551730 P0072551731 P0072551733 P0072551734 P0072551736 P0072551737 P0072551760 P0072551761 P0072551763 P0072551764 P0072551766 P0072551767 P0072554100 P0072554101 P0072554103 P0072554104 P0072554106 P0072554107 P0072554130 P0072554131 P0072554133 P0072554134 P0072554136 P0072554137 P0072554160 P0072554161 P0072554163 P0072554164 P0072554166 P0072554167))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#HExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#LineString"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#LineString"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"></geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral"></geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#D">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#DExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#DPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#DExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#DExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:sfIntersects rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#HPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"></geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral"></geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#H">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#HExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#HPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#HExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#HExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#DPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.2 34.1)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.2 34.1&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0080343086))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#M">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#MExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#AExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:hasSerialization rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.6 34.1, -83.2 34.1, -83.2 34.5, -83.6 34.5, -83.6 34.1))
+        
+    </geo:hasSerialization>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.6 34.1, -83.2 34.1, -83.2 34.5, -83.6 34.5, -83.6 34.1))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.6 34.1 -83.2 34.1 -83.2 34.5 -83.6 34.5 -83.6 34.1&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P007227 P007228 P007251 P007252 P008006 P008030 P0072243 P0072244 P0072245 P0072246 P0072247 P0072248 P0072253 P0072254 P0072255 P0072256 P0072257 P0072258 P0072540 P0072541 P0072542 P0072550 P0072551 P0072552 P0080033 P0080034 P0080035 P0080036 P0080037 P0080038 P0080330 P0080331 P0080332 P00722352 P00722355 P00722358 P00722382 P00722385 P00722388 P00722622 P00722625 P00722628 P00722652 P00722655 P00722658 P00722682 P00722685 P00722688 P00725022 P00725025 P00725028 P00725052 P00725055 P00725058 P00725082 P00725085 P00725088 P00725322 P00725325 P00725328 P007223278 P007223286 P007223287 P007223288 P007223512 P007223515 P007223518 P007223542 P007223545 P007223548 P007223572 P007223575 P007223578 P007223812 P007223815 P007223818 P007223842 P007223845 P007223848 P007223872 P007223875 P007223878 P007224066 P007224067 P007224068 P007224076 P007224077 P007224078 P007224086 P007224087 P007224088 P007224166 P007224167 P007224168 P007224176 P007224177 P007224178 P007224186 P007224187 P007224188 P007224266 P007224267 P007224268 P007224276 P007224277 P007224278 P007224286 P007224287 P007224288 P007225066 P007225067 P007225068 P007225076 P007225077 P007225078 P007225086 P007225087 P007225088 P007225166 P007225167 P007225168 P007225176 P007225177 P007225178 P007225186 P007225187 P007225188 P007225266 P007225267 P007225268 P007225276 P007225277 P007225278 P007225286 P007225287 P007225288 P007226212 P007226215 P007226218 P007226242 P007226245 P007226248 P007226272 P007226275 P007226278 P007226512 P007226515 P007226518 P007226542 P007226545 P007226548 P007226572 P007226575 P007226578 P007226812 P007226815 P007226818 P007226842 P007226845 P007226848 P007226872 P007226875 P007226878 P007250212 P007250215 P007250218 P007250242 P007250245 P007250248 P007250272 P007250275 P007250278 P007250512 P007250515 P007250518 P007250542 P007250545 P007250548 P007250572 P007250575 P007250578 P007250812 P007250815 P007250818 P007250842 P007250845 P007250848 P007250872 P007250875 P007250878 P007253212 P007253215 P007253218 P007253242 P007253245 P007253248 P007253272 P007253275 P007253278 P007253512 P007253515 P007253518 P007253520 P007253521 P007253522 P007253523 P007253524 P007253525 P007253526 P007253527 P007253528 P007254300 P007254301 P007254302 P007254303 P007254304 P007254305 P007254306 P007254307 P007254308 P007254310 P007254311 P007254312 P007254313 P007254314 P007254315 P007254316 P007254317 P007254318 P007254320 P007254321 P007254322 P007254323 P007254324 P007254325 P007254326 P007254327 P007254328 P007254400 P007254401 P007254402 P007254403 P007254404 P007254405 P007254406 P007254407 P007254408 P007254410 P007254411 P007254412 P007254413 P007254414 P007254415 P007254416 P007254417 P007254418 P007254420 P007254421 P007254422 P007254423 P007254424 P007254425 P007254426 P007254427 P007254428 P007254500 P007254501 P007254502 P007254503 P007254504 P007254505 P007254506 P007254507 P007254508 P007254510 P007254511 P007254512 P007254513 P007254514 P007254515 P007254516 P007254517 P007254518 P007254520 P007254521 P007254522 P007254523 P007254524 P007254525 P007254526 P007254527 P007254528 P007255300 P007255301 P007255302 P007255303 P007255304 P007255305 P007255306 P007255307 P007255308 P007255310 P007255311 P007255312 P007255313 P007255314 P007255315 P007255316 P007255317 P007255318 P007255320 P007255321 P007255322 P007255323 P007255324 P007255325 P007255326 P007255327 P007255328 P007255400 P007255401 P007255402 P007255403 P007255404 P007255405 P007255406 P007255407 P007255408 P007255410 P007255411 P007255412 P007255413 P007255414 P007255415 P007255416 P007255417 P007255418 P007255420 P007255421 P007255422 P007255423 P007255424 P007255425 P007255426 P007255427 P007255428 P007255500 P007255501 P007255502 P007255503 P007255504 P007255505 P007255506 P007255507 P007255508 P007255510 P007255511 P007255512 P007255513 P007255514 P007255515 P007255516 P007255517 P007255518 P007255520 P007255521 P007255522 P007255523 P007255524 P007255525 P007255526 P007255527 P007255528 P008003066 P008003067 P008003068 P008003076 P008003077 P008003078 P008003086 P008003087 P008003088 P008003166 P008003167 P008003168 P008003176 P008003177 P008003178 P008003186 P008003187 P008003188 P008003266 P008003267 P008003268 P008003276 P008003277 P008003278 P008003286 P008003287 P008003288 P008004066 P008004067 P008004300 P008004301 P008004303 P008004304 P008004306 P008004307 P008004330 P008004331 P008004333 P008004334 P008004336 P008004337 P008004360 P008004361 P008004363 P008004364 P008004366 P008004367 P008004600 P008004601 P008004603 P008004604 P008004606 P008004607 P008004630 P008004631 P008004633 P008004634 P008004636 P008004637 P008004660 P008004661 P008004663 P008004664 P008004666 P008004667 P008007000 P008007001 P008007003 P008007004 P008007006 P008007007 P008007030 P008007031 P008007033 P008007034 P008007036 P008007037 P008007060 P008007061 P008007063 P008007064 P008007066 P008007067 P008007300 P008007301 P008007303 P008007304 P008007306 P008007307 P008007330 P008007331 P008007333 P008007334 P008007336 P008007337 P008007360 P008007361 P008007363 P008007364 P008007366 P008007367 P008007600 P008007601 P008007603 P008007604 P008007606 P008007607 P008007630 P008007631 P008007633 P008007634 P008007636 P008007637 P008007660 P008007661 P008007663 P008007664 P008007666 P008007667 P008031000 P008031001 P008031003 P008031004 P008031006 P008031007 P008031030 P008031031 P008031033 P008031034 P008031036 P008031037 P008031060 P008031061 P008031063 P008031064 P008031066 P008031067 P008031300 P008031301 P008031303 P008031304 P008031306 P008031307 P008031330 P008031331 P008031333 P008031334 P008031336 P008031337 P008031360 P008031361 P008031363 P008031364 P008031366 P008031367 P008031600 P008031601 P008031603 P008031604 P008031606 P008031607 P008031630 P008031631 P008031633 P008031634 P008031636 P008031637 P008031660 P008031661 P008031663 P008031664 P008031666 P008031667 P008033300 P008033301 P008033302 P008033303 P008033304 P008033305 P008033306 P008033307 P008033308 P008033310 P008033311 P008033312 P008033313 P008033314 P008033315 P008033316 P008033317 P008033318 P008033320 P008033321 P008033322 P008033323 P008033324 P008033325 P008033326 P008033327 P008033328 P008033400 P008033401 P008033402 P008033403 P008033404 P008033405 P008033406 P008033407 P008033408 P008033410 P008033411 P008033412 P008033413 P008033414 P008033415 P008033416 P008033417 P008033418 P008033420 P008033421 P008033422 P008033423 P008033424 P008033425 P008033426 P008033427 P008033428 P008033500 P008033501 P008033502 P008033503 P008033504 P008033505 P008033506 P008033507 P008033508 P008033510 P008033511 P008033512 P008033513 P008033514 P008033515 P008033516 P008033517 P008033518 P008033520 P008033521 P008033522 P008033523 P008033524 P008033525 P008033526 P008033527 P008033528 P008034000 P008034001 P008034003 P008034004 P008034006 P008034007 P008034030 P008034031 P008034033 P008034034 P008034036 P008034037 P008034060 P008034061 P008034063 P008034064 P008034066 P008034067 P008034300 P008034301 P008034303 P008034304 P008034306 P008034307 P0072232748 P0072232756 P0072232757 P0072232758 P0072232772 P0072232775 P0072232778 P0072232836 P0072232837 P0072232838 P0072232846 P0072232847 P0072232848 P0072232856 P0072232857 P0072232858 P0072235112 P0072235115 P0072235118 P0072235142 P0072235145 P0072235148 P0072235172 P0072235175 P0072235178 P0072235412 P0072235415 P0072235418 P0072235442 P0072235445 P0072235448 P0072235472 P0072235475 P0072235478 P0072235712 P0072235715 P0072235718 P0072235742 P0072235745 P0072235748 P0072235772 P0072235775 P0072235778 P0072238112 P0072238115 P0072238118 P0072238142 P0072238145 P0072238148 P0072238172 P0072238175 P0072238178 P0072238412 P0072238415 P0072238418 P0072238442 P0072238445 P0072238448 P0072238472 P0072238475 P0072238478 P0072238712 P0072238715 P0072238718 P0072238742 P0072238745 P0072238748 P0072238772 P0072238775 P0072238778 P0072240636 P0072240637 P0072240638 P0072240646 P0072240647 P0072240648 P0072240656 P0072240657 P0072240658 P0072240736 P0072240737 P0072240738 P0072240746 P0072240747 P0072240748 P0072240756 P0072240757 P0072240758 P0072240836 P0072240837 P0072240838 P0072240846 P0072240847 P0072240848 P0072240856 P0072240857 P0072240858 P0072241636 P0072241637 P0072241638 P0072241646 P0072241647 P0072241648 P0072241656 P0072241657 P0072241658 P0072241736 P0072241737 P0072241738 P0072241746 P0072241747 P0072241748 P0072241756 P0072241757 P0072241758 P0072241836 P0072241837 P0072241838 P0072241846 P0072241847 P0072241848 P0072241856 P0072241857 P0072241858 P0072242636 P0072242637 P0072242638 P0072242646 P0072242647 P0072242648 P0072242656 P0072242657 P0072242658 P0072242736 P0072242737 P0072242738 P0072242746 P0072242747 P0072242748 P0072242756 P0072242757 P0072242758 P0072242836 P0072242837 P0072242838 P0072242846 P0072242847 P0072242848 P0072242856 P0072242857 P0072242858 P0072250636 P0072250637 P0072250638 P0072250646 P0072250647 P0072250648 P0072250656 P0072250657 P0072250658 P0072250736 P0072250737 P0072250738 P0072250746 P0072250747 P0072250748 P0072250756 P0072250757 P0072250758 P0072250836 P0072250837 P0072250838 P0072250846 P0072250847 P0072250848 P0072250856 P0072250857 P0072250858 P0072251636 P0072251637 P0072251638 P0072251646 P0072251647 P0072251648 P0072251656 P0072251657 P0072251658 P0072251736 P0072251737 P0072251738 P0072251746 P0072251747 P0072251748 P0072251756 P0072251757 P0072251758 P0072251836 P0072251837 P0072251838 P0072251846 P0072251847 P0072251848 P0072251856 P0072251857 P0072251858 P0072252636 P0072252637 P0072252638 P0072252646 P0072252647 P0072252648 P0072252656 P0072252657 P0072252658 P0072252736 P0072252737 P0072252738 P0072252746 P0072252747 P0072252748 P0072252756 P0072252757 P0072252758 P0072252836 P0072252837 P0072252838 P0072252846 P0072252847 P0072252848 P0072252856 P0072252857 P0072252858 P0072262112 P0072262115 P0072262118 P0072262142 P0072262145 P0072262148 P0072262172 P0072262175 P0072262178 P0072262412 P0072262415 P0072262418 P0072262442 P0072262445 P0072262448 P0072262472 P0072262475 P0072262478 P0072262712 P0072262715 P0072262718 P0072262742 P0072262745 P0072262748 P0072262772 P0072262775 P0072262778 P0072265112 P0072265115 P0072265118 P0072265142 P0072265145 P0072265148 P0072265172 P0072265175 P0072265178 P0072265412 P0072265415 P0072265418 P0072265442 P0072265445 P0072265448 P0072265472 P0072265475 P0072265478 P0072265712 P0072265715 P0072265718 P0072265742 P0072265745 P0072265748 P0072265772 P0072265775 P0072265778 P0072268112 P0072268115 P0072268118 P0072268142 P0072268145 P0072268148 P0072268172 P0072268175 P0072268178 P0072268412 P0072268415 P0072268418 P0072268442 P0072268445 P0072268448 P0072268472 P0072268475 P0072268478 P0072268712 P0072268715 P0072268718 P0072268742 P0072268745 P0072268748 P0072268772 P0072268775 P0072268778 P0072502112 P0072502115 P0072502118 P0072502142 P0072502145 P0072502148 P0072502172 P0072502175 P0072502178 P0072502412 P0072502415 P0072502418 P0072502442 P0072502445 P0072502448 P0072502472 P0072502475 P0072502478 P0072502712 P0072502715 P0072502718 P0072502742 P0072502745 P0072502748 P0072502772 P0072502775 P0072502778 P0072505112 P0072505115 P0072505118 P0072505142 P0072505145 P0072505148 P0072505172 P0072505175 P0072505178 P0072505412 P0072505415 P0072505418 P0072505442 P0072505445 P0072505448 P0072505472 P0072505475 P0072505478 P0072505712 P0072505715 P0072505718 P0072505742 P0072505745 P0072505748 P0072505772 P0072505775 P0072505778 P0072508112 P0072508115 P0072508118 P0072508142 P0072508145 P0072508148 P0072508172 P0072508175 P0072508178 P0072508412 P0072508415 P0072508418 P0072508442 P0072508445 P0072508448 P0072508472 P0072508475 P0072508478 P0072508712 P0072508715 P0072508718 P0072508742 P0072508745 P0072508748 P0072508772 P0072508775 P0072508778 P0072532112 P0072532115 P0072532118 P0072532142 P0072532145 P0072532148 P0072532172 P0072532175 P0072532178 P0072532412 P0072532415 P0072532418 P0072532442 P0072532445 P0072532448 P0072532472 P0072532475 P0072532478 P0072532712 P0072532715 P0072532718 P0072532742 P0072532745 P0072532748 P0072532772 P0072532775 P0072532778 P0072535112 P0072535115 P0072535118 P0072535142 P0072535145 P0072535148 P0072535172 P0072535175 P0072535178 P0080030636 P0080030637 P0080030638 P0080030646 P0080030647 P0080030648 P0080030656 P0080030657 P0080030658 P0080030736 P0080030737 P0080030738 P0080030746 P0080030747 P0080030748 P0080030756 P0080030757 P0080030758 P0080030836 P0080030837 P0080030838 P0080030846 P0080030847 P0080030848 P0080030856 P0080030857 P0080030858 P0080031636 P0080031637 P0080031638 P0080031646 P0080031647 P0080031648 P0080031656 P0080031657 P0080031658 P0080031736 P0080031737 P0080031738 P0080031746 P0080031747 P0080031748 P0080031756 P0080031757 P0080031758 P0080031836 P0080031837 P0080031838 P0080031846 P0080031847 P0080031848 P0080031856 P0080031857 P0080031858 P0080032636 P0080032637 P0080032638 P0080032646 P0080032647 P0080032648 P0080032656 P0080032657 P0080032658 P0080032736 P0080032737 P0080032738 P0080032746 P0080032747 P0080032748 P0080032756 P0080032757 P0080032758 P0080032836 P0080032837 P0080032838 P0080032846 P0080032847 P0080032848 P0080032856 P0080032857 P0080032858 P0080040636 P0080040637 P0080040638 P0080040646 P0080040647 P0080040648 P0080040656 P0080040680 P0080040683 P0080040686 P0080043020 P0080043023 P0080043026 P0080043050 P0080043053 P0080043056 P0080043080 P0080043083 P0080043086 P0080043320 P0080043323 P0080043326 P0080043350 P0080043353 P0080043356 P0080043380 P0080043383 P0080043386 P0080043620 P0080043623 P0080043626 P0080043650 P0080043653 P0080043656 P0080043680 P0080043683 P0080043686 P0080046020 P0080046023 P0080046026 P0080046050 P0080046053 P0080046056 P0080046080 P0080046083 P0080046086 P0080046320 P0080046323 P0080046326 P0080046350 P0080046353 P0080046356 P0080046380 P0080046383 P0080046386 P0080046620 P0080046623 P0080046626 P0080046650 P0080046653 P0080046656 P0080046680 P0080046683 P0080046686 P0080070020 P0080070023 P0080070026 P0080070050 P0080070053 P0080070056 P0080070080 P0080070083 P0080070086 P0080070320 P0080070323 P0080070326 P0080070350 P0080070353 P0080070356 P0080070380 P0080070383 P0080070386 P0080070620 P0080070623 P0080070626 P0080070650 P0080070653 P0080070656 P0080070680 P0080070683 P0080070686 P0080073020 P0080073023 P0080073026 P0080073050 P0080073053 P0080073056 P0080073080 P0080073083 P0080073086 P0080073320 P0080073323 P0080073326 P0080073350 P0080073353 P0080073356 P0080073380 P0080073383 P0080073386 P0080073620 P0080073623 P0080073626 P0080073650 P0080073653 P0080073656 P0080073680 P0080073683 P0080073686 P0080076020 P0080076023 P0080076026 P0080076050 P0080076053 P0080076056 P0080076080 P0080076083 P0080076086 P0080076320 P0080076323 P0080076326 P0080076350 P0080076353 P0080076356 P0080076380 P0080076383 P0080076386 P0080076620 P0080076623 P0080076626 P0080076650 P0080076653 P0080076656 P0080076680 P0080076683 P0080076686 P0080310020 P0080310023 P0080310026 P0080310050 P0080310053 P0080310056 P0080310080 P0080310083 P0080310086 P0080310320 P0080310323 P0080310326 P0080310350 P0080310353 P0080310356 P0080310380 P0080310383 P0080310386 P0080310620 P0080310623 P0080310626 P0080310650 P0080310653 P0080310656 P0080310680 P0080310683 P0080310686 P0080313020 P0080313023 P0080313026 P0080313050 P0080313053 P0080313056 P0080313080 P0080313083 P0080313086 P0080313320 P0080313323 P0080313326 P0080313350 P0080313353 P0080313356 P0080313380 P0080313383 P0080313386 P0080313620 P0080313623 P0080313626 P0080313650 P0080313653 P0080313656 P0080313680 P0080313683 P0080313686 P0080316020 P0080316023 P0080316026 P0080316050 P0080316053 P0080316056 P0080316080 P0080316083 P0080316086 P0080316320 P0080316323 P0080316326 P0080316350 P0080316353 P0080316356 P0080316380 P0080316383 P0080316386 P0080316620 P0080316623 P0080316626 P0080316650 P0080316653 P0080316656 P0080316680 P0080316683 P0080316686 P0080340020 P0080340023 P0080340026 P0080340050 P0080340053 P0080340056 P0080340080 P0080340083 P0080340086 P0080340320 P0080340323 P0080340326 P0080340350 P0080340353 P0080340356 P0080340380 P0080340383 P0080340386 P0080340620 P0080340623 P0080340626 P0080340650 P0080340653 P0080340656 P0080340680 P0080340683 P0080340686 P0080343020 P0080343023 P0080343026 P0080343050 P0080343053 P0080343056 P0080343080 P0080343083 P0080343086))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#I">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#IExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#IPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#IExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#IExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#B">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#BExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#BPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#BExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#BExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:sfDisjoint rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:ehDisjoint rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:rcc8dc rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:sfWithin rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:ehCoveredBy rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:rcc8tpp rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#DExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.3 34.0, -83.1 34.0, -83.1 34.2, -83.3 34.2, -83.3 34.0))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.3 34.0 -83.1 34.0 -83.1 34.2 -83.3 34.2 -83.3 34.0&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0080307 P0080308 P0080316 P0080317 P0080331 P0080332 P0080334 P0080335 P0080337 P0080338 P0080340 P0080341 P0080343 P0080344 P0080346 P0080347 P00803180 P00803181 P00803183 P00803184 P00803186 P00803187 P00803420 P00803421 P00803423 P00803424 P00803426 P00803427 P00803450 P00803451 P00803453 P00803454 P00803456 P00803457 P00803480 P00803481 P00803483 P00803484 P00803486 P00803487 P00803610 P00803611 P00803612 P00803613 P00803614 P00803615 P00803620 P00803621 P00803622 P00803623 P00803624 P00803625 P00803700 P00803701 P00803702 P00803703 P00803704 P00803705 P00803710 P00803711 P00803712 P00803713 P00803714 P00803715 P00803720 P00803721 P00803723 P00803724 P008030621 P008030622 P008030624 P008030625 P008030627 P008030628 P008030651 P008030652 P008030654 P008030655 P008030657 P008030658 P008030681 P008030682 P008030684 P008030685 P008030687 P008030688 P008033021 P008033022 P008033024 P008033025 P008033027 P008033028 P008033051 P008033052 P008033054 P008033055 P008033057 P008033058 P008033081 P008033082 P008033084 P008033085 P008033087 P008033088 P008033321 P008033322 P008033324 P008033325 P008033327 P008033328 P008033351 P008033352 P008033354 P008033355 P008033357 P008033358 P008033381 P008033382 P008033384 P008033385 P008033387 P008033388 P008033621 P008033622 P008033624 P008033625 P008033627 P008033628 P008033651 P008033652 P008033654 P008033655 P008033657 P008033658 P008033681 P008033682 P008033684 P008033685 P008033687 P008033688 P008036021 P008036022 P008036024 P008036025 P008036027 P008036028 P008036051 P008036052 P008036054 P008036055 P008036057 P008036058 P0080303873 P0080303874 P0080303875 P0080303876 P0080303877 P0080303878 P0080303883 P0080303884 P0080303885 P0080303886 P0080303887 P0080303888 P0080304663 P0080304664 P0080304665 P0080304666 P0080304667 P0080304668 P0080304673 P0080304674 P0080304675 P0080304676 P0080304677 P0080304678 P0080304683 P0080304684 P0080304685 P0080304686 P0080304687 P0080304688 P0080304763 P0080304764 P0080304765 P0080304766 P0080304767 P0080304768 P0080304773 P0080304774 P0080304775 P0080304776 P0080304777 P0080304778 P0080304783 P0080304784 P0080304785 P0080304786 P0080304787 P0080304788 P0080304863 P0080304864 P0080304865 P0080304866 P0080304867 P0080304868 P0080304873 P0080304874 P0080304875 P0080304876 P0080304877 P0080304878 P0080304883 P0080304884 P0080304885 P0080304886 P0080304887 P0080304888 P0080305663 P0080305664 P0080305665 P0080305666 P0080305667 P0080305668 P0080305673 P0080305674 P0080305675 P0080305676 P0080305677 P0080305678 P0080305683 P0080305684 P0080305685 P0080305686 P0080305687 P0080305688 P0080305763 P0080305764 P0080305765 P0080305766 P0080305767 P0080305768 P0080305773 P0080305774 P0080305775 P0080305776 P0080305777 P0080305778 P0080305783 P0080305784 P0080305785 P0080305786 P0080305787 P0080305788 P0080305863 P0080305864 P0080305865 P0080305866 P0080305867 P0080305868 P0080305873 P0080305874 P0080305875 P0080305876 P0080305877 P0080305878 P0080305883 P0080305884 P0080305885 P0080305886 P0080305887 P0080305888 P0080313663 P0080313664 P0080313665 P0080313666 P0080313667 P0080313668 P0080313673 P0080313674 P0080313675 P0080313676 P0080313677 P0080313678 P0080313683 P0080313684 P0080313685 P0080313686 P0080313687 P0080313688 P0080313763 P0080313764 P0080313765 P0080313766 P0080313767 P0080313768 P0080313773 P0080313774 P0080313775 P0080313776 P0080313777 P0080313778 P0080313783 P0080313784 P0080313785 P0080313786 P0080313787 P0080313788 P0080313863 P0080313864 P0080313865 P0080313866 P0080313867 P0080313868 P0080313873 P0080313874 P0080313875 P0080313876 P0080313877 P0080313878 P0080313883 P0080313884 P0080313885 P0080313886 P0080313887 P0080313888 P0080314663 P0080314664 P0080314665 P0080314666 P0080314667 P0080314668 P0080314673 P0080314674 P0080314675 P0080314676 P0080314677 P0080314678 P0080314683 P0080314684 P0080314685 P0080314686 P0080314687 P0080314688 P0080314763 P0080314764 P0080314765 P0080314766 P0080314767 P0080314768 P0080314773 P0080314774 P0080314775 P0080314776 P0080314777 P0080314778 P0080314783 P0080314784 P0080314785 P0080314786 P0080314787 P0080314788 P0080314863 P0080314864 P0080314865 P0080314866 P0080314867 P0080314868 P0080314873 P0080314874 P0080314875 P0080314876 P0080314877 P0080314878 P0080314883 P0080314884 P0080314885 P0080314886 P0080314887 P0080314888 P0080315663 P0080315664 P0080315665 P0080315666 P0080315667 P0080315668 P0080315673 P0080315674 P0080315675 P0080315676 P0080315677 P0080315678 P0080315683 P0080315684 P0080315685 P0080315686 P0080315687 P0080315688 P0080315763 P0080315764 P0080315765 P0080315766 P0080315767 P0080315768 P0080315773 P0080315774 P0080315775 P0080315776 P0080315777 P0080315778 P0080315783 P0080315784 P0080315785 P0080315786 P0080315787 P0080315788 P0080315863 P0080315866 P0080318200 P0080318203 P0080318206 P0080318230 P0080318233 P0080318236 P0080318260 P0080318263 P0080318266 P0080318500 P0080318503 P0080318506 P0080318530 P0080318533 P0080318536 P0080318560 P0080318563 P0080318566 P0080318800 P0080318803 P0080318806 P0080318830 P0080318833 P0080318836 P0080318860 P0080318863 P0080318866 P0080342200 P0080342203 P0080342206 P0080342230 P0080342233 P0080342236 P0080342260 P0080342263 P0080342266 P0080342500 P0080342503 P0080342506 P0080342530 P0080342533 P0080342536 P0080342560 P0080342563 P0080342566 P0080342800 P0080342803 P0080342806 P0080342830 P0080342833 P0080342836 P0080342860 P0080342863 P0080342866 P0080345200 P0080345203 P0080345206 P0080345230 P0080345233 P0080345236 P0080345260 P0080345263 P0080345266 P0080345500 P0080345503 P0080345506 P0080345530 P0080345533 P0080345536 P0080345560 P0080345563 P0080345566 P0080345800 P0080345803 P0080345806 P0080345830 P0080345833 P0080345836 P0080345860 P0080345863 P0080345866 P0080348200 P0080348203 P0080348206 P0080348230 P0080348233 P0080348236 P0080348260 P0080348263 P0080348266 P0080348500 P0080348503 P0080348506 P0080348530 P0080348533 P0080348536 P0080348560 P0080348563 P0080348566 P0080348800 P0080348803 P0080348806 P0080348830 P0080348833 P0080348836 P0080348860 P0080348863 P0080348866 P0080360810 P0080360811 P0080360812 P0080360820 P0080360821 P0080360822 P0080361600 P0080361601 P0080361602 P0080361610 P0080361611 P0080361612 P0080361620 P0080361621 P0080361622 P0080361700 P0080361701 P0080361702 P0080361710 P0080361711 P0080361712 P0080361720 P0080361721 P0080361722 P0080361800 P0080361801 P0080361802 P0080361810 P0080361811 P0080361812 P0080361820 P0080361821 P0080361822 P0080362600 P0080362601 P0080362602 P0080362610 P0080362611 P0080362612 P0080362620 P0080362621 P0080362622 P0080362700 P0080362701 P0080362702 P0080362710 P0080362711 P0080362712 P0080362720 P0080362721 P0080362722 P0080362800 P0080362801 P0080362802 P0080362810 P0080362811 P0080362812 P0080362820 P0080362821 P0080362822 P0080370600 P0080370601 P0080370602 P0080370610 P0080370611 P0080370612 P0080370620 P0080370621 P0080370622 P0080370700 P0080370701 P0080370702 P0080370710 P0080370711 P0080370712 P0080370720 P0080370721 P0080370722 P0080370800 P0080370801 P0080370802 P0080370810 P0080370811 P0080370812 P0080370820 P0080370821 P0080370822 P0080371600 P0080371601 P0080371602 P0080371610 P0080371611 P0080371612 P0080371620 P0080371621 P0080371622 P0080371700 P0080371701 P0080371702 P0080371710 P0080371711 P0080371712 P0080371720 P0080371721 P0080371722 P0080371800 P0080371801 P0080371802 P0080371810 P0080371811 P0080371812 P0080371820 P0080371821 P0080371822 P0080372200 P0080372203 P0080372206 P0080372230 P0080372233 P0080372236 P0080372260 P0080372263 P0080372266 P0080372500 P0080372503 P0080372506 P0080372530 P0080372533 P0080372536 P0080372560 P0080372563 P0080372566 P0080372600 P0080372601 P0080372602 P0080372610 P0080372611 P0080372612 P0080372620 P0080372621 P0080372622 P0080372700 P0080372701 P0080372702 P0080372710 P0080372711 P0080372712 P0080372720 P0080372721 P0080372722 P0080372800))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#C">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#CExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#CPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#CExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#CExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:sfDisjoint rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:ehDisjoint rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8dc rdf:resource="http://example.org/ApplicationSchema#B"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#CPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.1 34.4)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.1 34.4&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0080072236))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#IPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT EMPTY</geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        
+            &lt;Point xmlns="https://www.opengis.net/gml"&gt;&lt;posList&gt;&lt;/posList&gt;&lt;/Point&gt;
+        
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.opengis.net/ont/gml#Polygon">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/gml#Surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#IExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#LineString"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#LineString"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">LINESTRING EMPTY</geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        
+            &lt;LineString xmlns="https://www.opengis.net/gml"&gt;&lt;posList&gt;&lt;/posList&gt;&lt;/LineString&gt;
+        
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#BPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.5 34.2)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.5 34.2&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072514884))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#GExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.5 34.2, -83.3 34.2, -83.3 34.4, -83.5 34.4, -83.5 34.2))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        
+            &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.5 34.2 -83.3 34.2 -83.3 34.4 -83.5 34.4 -83.5 34.2&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+        
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072275 P0072278 P0072283 P0072284 P0072285 P0072286 P0072287 P0072288 P0072512 P0072520 P0072521 P0072522 P00722723 P00722724 P00722725 P00722726 P00722727 P00722728 P00722803 P00722804 P00722805 P00722806 P00722807 P00722808 P00722813 P00722814 P00722815 P00722816 P00722817 P00722818 P00722823 P00722824 P00722825 P00722826 P00722827 P00722828 P00725150 P00725151 P00725152 P00725153 P00725154 P00725155 P00725230 P00725231 P00725232 P00725233 P00725234 P00725235 P00725240 P00725241 P00725242 P00725243 P00725244 P00725245 P00725250 P00725251 P00725252 P00725253 P00725254 P00725255 P00800603 P00800604 P00800606 P00800607 P00800630 P00800631 P00800633 P00800634 P00800636 P00800637 P00800660 P00800661 P00800663 P00800664 P00800666 P00800667 P00803000 P00803001 P00803003 P00803004 P00803006 P00803007 P00803030 P00803031 P00803033 P00803034 P007227206 P007227207 P007227208 P007227216 P007227217 P007227218 P007227226 P007227227 P007227228 P007228006 P007228007 P007228008 P007228016 P007228017 P007228018 P007228026 P007228027 P007228028 P007228106 P007228107 P007228108 P007228116 P007228117 P007228118 P007228126 P007228127 P007228128 P007228206 P007228207 P007228208 P007228216 P007228217 P007228218 P007228226 P007228227 P007228228 P007251560 P007251561 P007251562 P007251563 P007251564 P007251565 P007251570 P007251571 P007251572 P007251573 P007251574 P007251575 P007251580 P007251581 P007251582 P007251583 P007251584 P007251585 P007252360 P007252361 P007252362 P007252363 P007252364 P007252365 P007252370 P007252371 P007252372 P007252373 P007252374 P007252375 P007252380 P007252381 P007252382 P007252383 P007252384 P007252385 P007252460 P007252461 P007252462 P007252463 P007252464 P007252465 P007252470 P007252471 P007252472 P007252473 P007252474 P007252475 P007252480 P007252481 P007252482 P007252483 P007252484 P007252485 P007252560 P007252561 P007252562 P007252563 P007252564 P007252565 P007252570 P007252571 P007252572 P007252573 P007252574 P007252575 P007252580 P007252581 P007252582 P007252583 P007252584 P007252585 P008006006 P008006007 P008006008 P008006016 P008006017 P008006018 P008006026 P008006050 P008006053 P008006056 P008006080 P008006083 P008006086 P008006320 P008006323 P008006326 P008006350 P008006353 P008006356 P008006380 P008006383 P008006386 P008006620 P008006623 P008006626 P008006650 P008006653 P008006656 P008006680 P008006683 P008006686 P008030020 P008030023 P008030026 P008030050 P008030053 P008030056 P008030080 P008030083 P008030086 P008030320 P008030323 P008030326 P008030350 P008030353 P008030356 P008030360 P008030361 P008030362 P008030363 P008030364 P008030365 P008030370 P008030371 P008030372 P008030373 P008030374 P008030375 P008030380 P008030383 P0072271257 P0072271258 P0072271281 P0072271282 P0072271284 P0072271285 P0072271287 P0072271288 P0072271521 P0072271522 P0072271524 P0072271525 P0072271527 P0072271528 P0072271551 P0072271552 P0072271554 P0072271555 P0072271557 P0072271558 P0072271581 P0072271582 P0072271584 P0072271585 P0072271587 P0072271588 P0072271821 P0072271822 P0072271824 P0072271825 P0072271827 P0072271828 P0072271851 P0072271852 P0072271854 P0072271855 P0072271857 P0072271858 P0072271881 P0072271882 P0072271884 P0072271885 P0072271887 P0072271888 P0072272036 P0072272037 P0072272038 P0072272046 P0072272047 P0072272048 P0072272056 P0072272057 P0072272058 P0072272136 P0072272137 P0072272138 P0072272146 P0072272147 P0072272148 P0072272156 P0072272157 P0072272158 P0072272236 P0072272237 P0072272238 P0072272246 P0072272247 P0072272248 P0072272256 P0072272257 P0072272258 P0072274221 P0072274222 P0072274224 P0072274225 P0072274227 P0072274228 P0072274251 P0072274252 P0072274254 P0072274255 P0072274257 P0072274258 P0072274281 P0072274282 P0072274284 P0072274285 P0072274287 P0072274288 P0072274521 P0072274522 P0072274524 P0072274525 P0072274527 P0072274528 P0072274551 P0072274552 P0072274554 P0072274555 P0072274557 P0072274558 P0072274581 P0072274582 P0072274584 P0072274585 P0072274587 P0072274588 P0072274821 P0072274822 P0072274824 P0072274825 P0072274827 P0072274828 P0072274851 P0072274852 P0072274854 P0072274855 P0072274857 P0072274858 P0072274881 P0072274882 P0072274884 P0072274885 P0072274887 P0072274888 P0072277221 P0072277222 P0072277224 P0072277225 P0072277227 P0072277228 P0072277251 P0072277252 P0072277254 P0072277255 P0072277257 P0072277258 P0072277281 P0072277282 P0072277284 P0072277285 P0072277287 P0072277288 P0072277521 P0072277522 P0072277524 P0072277525 P0072277527 P0072277528 P0072277551 P0072277552 P0072277554 P0072277555 P0072277557 P0072277558 P0072277581 P0072277582 P0072277584 P0072277585 P0072277587 P0072277588 P0072277821 P0072277822 P0072277824 P0072277825 P0072277827 P0072277828 P0072277851 P0072277852 P0072277854 P0072277855 P0072277857 P0072277858 P0072277881 P0072277882 P0072277884 P0072277885 P0072277887 P0072277888 P0072280036 P0072280037 P0072280038 P0072280046 P0072280047 P0072280048 P0072280056 P0072280057 P0072280058 P0072280136 P0072280137 P0072280138 P0072280146 P0072280147 P0072280148 P0072280156 P0072280157 P0072280158 P0072280236 P0072280237 P0072280238 P0072280246 P0072280247 P0072280248 P0072280256 P0072280257 P0072280258 P0072281036 P0072281037 P0072281038 P0072281046 P0072281047 P0072281048 P0072281056 P0072281057 P0072281058 P0072281136 P0072281137 P0072281138 P0072281146 P0072281147 P0072281148 P0072281156 P0072281157 P0072281158 P0072281236 P0072281237 P0072281238 P0072281246 P0072281247 P0072281248 P0072281256 P0072281257 P0072281258 P0072282036 P0072282037 P0072282038 P0072282046 P0072282047 P0072282048 P0072282056 P0072282057 P0072282058 P0072282136 P0072282137 P0072282138 P0072282146 P0072282147 P0072282148 P0072282156 P0072282157 P0072282158 P0072282236 P0072282237 P0072282238 P0072282246 P0072282247 P0072282248 P0072282256 P0072282257 P0072282258 P0072511221 P0072511222 P0072511224 P0072511225 P0072511227 P0072511228 P0072511251 P0072511252 P0072511254 P0072511255 P0072511257 P0072511258 P0072511281 P0072511282 P0072511284 P0072511285 P0072511287 P0072511288 P0072511521 P0072511522 P0072511524 P0072511525 P0072511527 P0072511528 P0072511551 P0072511552 P0072511554 P0072511555 P0072511557 P0072511558 P0072511581 P0072511582 P0072511584 P0072511585 P0072511587 P0072511588 P0072511821 P0072511822 P0072511824 P0072511825 P0072511827 P0072511828 P0072511851 P0072511852 P0072511854 P0072511855 P0072511857 P0072511858 P0072511881 P0072511882 P0072511884 P0072511885 P0072511887 P0072511888 P0072514221 P0072514222 P0072514224 P0072514225 P0072514227 P0072514228 P0072514251 P0072514252 P0072514254 P0072514255 P0072514257 P0072514258 P0072514281 P0072514282 P0072514284 P0072514285 P0072514287 P0072514288 P0072514521 P0072514522 P0072514524 P0072514525 P0072514527 P0072514528 P0072514551 P0072514552 P0072514554 P0072514555 P0072514557 P0072514558 P0072514581 P0072514582 P0072514584 P0072514585 P0072514587 P0072514588 P0072514821 P0072514822 P0072514824 P0072514825 P0072514827 P0072514828 P0072514851 P0072514852 P0072514854 P0072514855 P0072514857 P0072514858 P0072514881 P0072514882 P0072514884 P0072514885 P0072515660 P0072515661 P0072515662 P0072515663 P0072515664 P0072515665 P0072515670 P0072515671 P0072515672 P0072515673 P0072515674 P0072515675 P0072515680 P0072515681 P0072515682 P0072515683 P0072515684 P0072515685 P0072515760 P0072515761 P0072515762 P0072515763 P0072515764 P0072515765 P0072515770 P0072515771 P0072515772 P0072515773 P0072515774 P0072515775 P0072515780 P0072515781 P0072515782 P0072515783 P0072515784 P0072515785 P0072515860 P0072515861 P0072515862 P0072515863 P0072515864 P0072515865 P0072515870 P0072515871 P0072515872 P0072515873 P0072515874 P0072515875 P0072515880 P0072515881 P0072515882 P0072515883 P0072515884 P0072515885 P0072523660 P0072523661 P0072523662 P0072523663 P0072523664 P0072523665 P0072523670 P0072523671 P0072523672 P0072523673 P0072523674 P0072523675 P0072523680 P0072523681 P0072523682 P0072523683 P0072523684 P0072523685 P0072523760 P0072523761 P0072523762 P0072523763 P0072523764 P0072523765 P0072523770 P0072523771 P0072523772 P0072523773 P0072523774 P0072523775 P0072523780 P0072523781 P0072523782 P0072523783 P0072523784 P0072523785 P0072523860 P0072523861 P0072523862 P0072523863 P0072523864 P0072523865 P0072523870 P0072523871 P0072523872 P0072523873 P0072523874 P0072523875 P0072523880 P0072523881 P0072523882 P0072523883 P0072523884 P0072523885 P0072524660 P0072524661 P0072524662 P0072524663 P0072524664 P0072524665 P0072524670 P0072524671 P0072524672 P0072524673 P0072524674 P0072524675 P0072524680 P0072524681 P0072524682 P0072524683 P0072524684 P0072524685 P0072524760 P0072524761 P0072524762 P0072524763 P0072524764 P0072524765 P0072524770 P0072524771 P0072524772 P0072524773 P0072524774 P0072524775 P0072524780 P0072524781 P0072524782 P0072524783 P0072524784 P0072524785 P0072524860 P0072524861 P0072524862 P0072524863 P0072524864 P0072524865 P0072524870 P0072524871 P0072524872 P0072524873 P0072524874 P0072524875 P0072524880 P0072524881 P0072524882 P0072524883 P0072524884 P0072524885 P0072525660 P0072525661 P0072525662 P0072525663 P0072525664 P0072525665 P0072525670 P0072525671 P0072525672 P0072525673 P0072525674 P0072525675 P0072525680 P0072525681 P0072525682 P0072525683 P0072525684 P0072525685 P0072525760 P0072525761 P0072525762 P0072525763 P0072525764 P0072525765 P0072525770 P0072525771 P0072525772 P0072525773 P0072525774 P0072525775 P0072525780 P0072525781 P0072525782 P0072525783 P0072525784 P0072525785 P0072525860 P0072525861 P0072525862 P0072525863 P0072525864 P0072525865 P0072525870 P0072525871 P0072525872 P0072525873 P0072525874 P0072525875 P0072525880 P0072525881 P0072525882 P0072525883 P0072525884 P0072525885 P0080060036 P0080060037 P0080060038 P0080060046 P0080060047 P0080060048 P0080060056 P0080060057 P0080060058 P0080060136 P0080060137 P0080060138 P0080060146 P0080060147 P0080060148 P0080060156 P0080060157 P0080060158 P0080060236 P0080060237 P0080060238 P0080060246 P0080060270 P0080060273 P0080060276 P0080060510 P0080060513 P0080060516 P0080060540 P0080060543 P0080060546 P0080060570 P0080060573 P0080060576 P0080060810 P0080060813 P0080060816 P0080060840 P0080060843 P0080060846 P0080060870 P0080060873 P0080060876 P0080063210 P0080063213 P0080063216 P0080063240 P0080063243 P0080063246 P0080063270 P0080063273 P0080063276 P0080063510 P0080063513 P0080063516 P0080063540 P0080063543 P0080063546 P0080063570 P0080063573 P0080063576 P0080063810 P0080063813 P0080063816 P0080063840 P0080063843 P0080063846 P0080063870 P0080063873 P0080063876 P0080066210 P0080066213 P0080066216 P0080066240 P0080066243 P0080066246 P0080066270 P0080066273 P0080066276 P0080066510 P0080066513 P0080066516 P0080066540 P0080066543 P0080066546 P0080066570 P0080066573 P0080066576 P0080066810 P0080066813 P0080066816 P0080066840 P0080066843 P0080066846 P0080066870 P0080066873 P0080066876 P0080300210 P0080300213 P0080300216 P0080300240 P0080300243 P0080300246 P0080300270 P0080300273 P0080300276 P0080300510 P0080300513 P0080300516 P0080300540 P0080300543 P0080300546 P0080300570 P0080300573 P0080300576 P0080300810 P0080300813 P0080300816 P0080300840 P0080300843 P0080300846 P0080300870 P0080300873 P0080300876 P0080303210 P0080303213 P0080303216 P0080303240 P0080303243 P0080303246 P0080303270 P0080303273 P0080303276 P0080303510 P0080303513 P0080303516 P0080303540 P0080303543 P0080303546 P0080303570 P0080303573 P0080303576 P0080303660 P0080303661 P0080303662 P0080303663 P0080303664 P0080303665 P0080303670 P0080303671 P0080303672 P0080303673 P0080303674 P0080303675 P0080303680 P0080303681 P0080303682 P0080303683 P0080303684 P0080303685 P0080303760 P0080303761 P0080303762 P0080303763 P0080303764 P0080303765 P0080303770 P0080303771 P0080303772 P0080303773 P0080303774 P0080303775 P0080303780 P0080303781 P0080303782 P0080303783 P0080303784 P0080303785 P0080303810 P0080303813 P0080303816 P0080303840 P0080303843 P0080303846 P0080303860 P0080303861 P0080303862 P0080303863 P0080303864 P0080303865 P0080303870 P0080303873))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#KExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-77.089005 38.913574,-77.029953 38.913574,-77.029953 38.886321,-77.089005 38.886321,-77.089005 38.913574))
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-77.089005 38.913574 -77.029953 38.913574 -77.029953 38.886321 -77.089005 38.886321 -77.089005 38.913574&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P01084256 P01084257 P01084258 P010842457 P010842458 P010842481 P010842482 P010842484 P010842485 P010842487 P010842488 P010842536 P010842537 P010842538 P010842546 P010842547 P010842548 P010842556 P010842557 P010842558 P010842721 P010842722 P010842800 P010842801 P010842802 P010842810 P010842811 P010842812 P010842820 P010842821 P010842822 P010850336 P010850360 P010850363 P010850366 P010850600 P0108424561 P0108424562 P0108424564 P0108424565 P0108424567 P0108424568 P0108424801 P0108424802 P0108424804 P0108424805 P0108424807 P0108424808 P0108424831 P0108424832 P0108424834 P0108424835 P0108424837 P0108424838 P0108424861 P0108424862 P0108424864 P0108424865 P0108424867 P0108424868 P0108427201 P0108427202 P0108427204 P0108427205 P0108427207 P0108427208 P0108427231 P0108427232 P0108427234 P0108427235 P0108427240 P0108427241 P0108427242 P0108427243 P0108427244 P0108427245 P0108427250 P0108427251 P0108427252 P0108427253 P0108427254 P0108427255 P0108428030 P0108428031 P0108428032 P0108428033 P0108428034 P0108428035 P0108428040 P0108428041 P0108428042 P0108428043 P0108428044 P0108428045 P0108428050 P0108428051 P0108428052 P0108428053 P0108428054 P0108428055 P0108428130 P0108428131 P0108428132 P0108428133 P0108428134 P0108428135 P0108428140 P0108428141 P0108428142 P0108428143 P0108428144 P0108428145 P0108428150 P0108428151 P0108428152 P0108428153 P0108428154 P0108428155 P0108428230 P0108428231 P0108428232 P0108428233 P0108428234 P0108428235 P0108428240 P0108428241 P0108428242 P0108428243 P0108428244 P0108428245 P0108428250 P0108428251 P0108428252 P0108428253 P0108428254 P0108428255 P0108503370 P0108503371 P0108503373 P0108503374 P0108503376 P0108503377 P0108503610 P0108503611 P0108503613 P0108503614 P0108503616 P0108503617 P0108503640 P0108503641 P0108503643 P0108503644 P0108503646 P0108503647 P0108503670 P0108503671 P0108503673 P0108503674 P0108503676 P0108503677 P0108506010 P0108506011 P0108506013 P0108506014 P0108506016 P0108506017 P0108506030 P0108506031 P0108506032 P0108506033 P0108506034 P0108506035 P0108506040 P0108506041 P0108506043 P0108506044))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#hasExactGeometry">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasDefaultGeometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#F">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#FExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#FExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#FExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#F"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#F"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#F"/>
+    <geo:ehInside rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#L">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#LExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#LExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#LExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#MExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; Point(31.95 -88.38)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/EPSG/0/4326"&gt;&lt;gml:pos&gt;31.95 -88.38&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#PlaceOfInterest">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#GPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+        
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.4 34.3)
+        
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.4 34.3&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072287461))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.opengis.net/ont/sf#Polygon">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#hasPointGeometry">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.opengis.net/ont/sf#LineString">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Curve"/>
+  </rdf:Description>
+</rdf:RDF>

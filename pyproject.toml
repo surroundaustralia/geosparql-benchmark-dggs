@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "geosparql-benchmark-dggs"
+version = "0.1.0"
+description = "Converts the GeoSPARQL benchmark dataset geometries to the auspix parametrisation of the rHEALPix DGGS"
+authors = ["david-habgood <david.habgood@surroundaustralia.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rdflib = "^6.1.1"
+converter = { git = "ssh://git@bitbucket.org/surroundbitbucket/dggs-converter.git"}
+Shapely = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
