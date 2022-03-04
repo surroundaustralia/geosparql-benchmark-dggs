@@ -1,0 +1,15 @@
+PREFIX f: <java:main.dggs.geosparql.>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX testgeom: <http://testgeom#>
+
+#SELECT * {?s ?p ?o}
+
+SELECT ?a ?geoma ?b ?geomb {
+  ?a geo:hasGeometry / geo:asDGGS ?geoma .
+  { SELECT ?b ?geomb {
+  	?b geo:hasGeometry / geo:asDGGS ?geomb .
+	}
+  }
+  FILTER (?a != ?b)
+  FILTER(f:SFWithin(?geoma, ?geomb))
+}

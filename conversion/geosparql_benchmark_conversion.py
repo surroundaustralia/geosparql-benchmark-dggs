@@ -23,7 +23,8 @@ for val in geom_dict.values():
             pass
     geom_wkt.append(val)
 
-geom_dggs = lambda_convert(geom_ids, geom_wkt, "wkt", 10)
+level = 7
+geom_dggs = lambda_convert(geom_ids, geom_wkt, "wkt", level)
 
 geom_dggs_no_crs = {
     k: v.lstrip("<https://w3id.org/dggs/auspix> ") for k, v in geom_dggs.items()
@@ -33,5 +34,5 @@ geom_dggs_no_crs = {
 for geom_id, dggs_geom in geom_dggs_no_crs.items():
     g.add((URIRef(geom_id), GEO.asDGGS, Literal(dggs_geom)))
 
-g.serialize("output/dataset_dffs.rdf", format="xml")
-g.serialize("output/dataset_dffs.ttl", format="turtle")
+g.serialize(f"output/dataset_dggs_level_{level}.rdf", format="xml")
+g.serialize(f"output/dataset_dggs_level_{level}.ttl", format="turtle")

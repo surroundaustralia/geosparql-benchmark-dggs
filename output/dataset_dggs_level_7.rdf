@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:geo="http://www.opengis.net/ont/geosparql#"
+   xmlns:my="http://example.org/ApplicationSchema#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#J">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#JExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#JExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#JExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#F">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#FExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#FExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#FExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#F"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#F"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#F"/>
+    <geo:ehInside rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#JExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            Polygon((-77.089005 38.913574,-77.029953 38.913574,-77.029953 38.886321,-77.089005 38.886321,-77.089005 38.913574))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-77.089005 38.913574 -77.029953 38.913574 -77.029953 38.886321 -77.089005 38.886321 -77.089005 38.913574&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0108424 P0108425 P0108427 P0108428 P0108503 P0108506))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#LExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-88.38 31.95)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-88.38 31.95&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0067413))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#BPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.5 34.2)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.5 34.2&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072514))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#C">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#CExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#CPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#CExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#CExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:sfDisjoint rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:ehDisjoint rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8dc rdf:resource="http://example.org/ApplicationSchema#B"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.opengis.net/ont/sf#Polygon">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#A">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#AExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#APointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#AExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#AExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:sfIntersects rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:sfTouches rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:ehMeet rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:rcc8ec rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:sfContains rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:ehContains rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:sfOverlaps rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:ehOverlap rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:rcc8po rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:ehCovers rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8tppi rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8ntppi rdf:resource="http://example.org/ApplicationSchema#G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#CPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.1 34.4)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.1 34.4&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0080072))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#I">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#IExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#IPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#IExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#IExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#B">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#BExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#BPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#BExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#BExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#B"/>
+    <geo:sfDisjoint rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:ehDisjoint rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:rcc8dc rdf:resource="http://example.org/ApplicationSchema#C"/>
+    <geo:sfWithin rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:ehCoveredBy rdf:resource="http://example.org/ApplicationSchema#A"/>
+    <geo:rcc8tpp rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#IExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#LineString"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#LineString"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">LINESTRING EMPTY</geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+
+            &lt;LineString xmlns="https://www.opengis.net/gml"&gt;&lt;posList&gt;&lt;/posList&gt;&lt;/LineString&gt;
+
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.opengis.net/ont/gml#Polygon">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/gml#Surface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#BExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.6 34.1, -83.4 34.1, -83.4 34.3, -83.6 34.3, -83.6 34.1))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.6 34.1 -83.4 34.1 -83.4 34.3 -83.6 34.3 -83.6 34.1&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P007251 P0072268 P0072276 P0072277 P0072278 P0072286 P0072287 P0072502 P0072505 P0072508 P0072520 P0072521 P0072523 P0072524 P0072526 P0072527 P0072532 P0072535 P0072540 P0072541 P0072542 P0072543 P0072544 P0072545 P0072550 P0072551 P0072553 P0072554))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#HExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#LineString"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#LineString"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"></geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral"></geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#GPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.4 34.3)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.4 34.3&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072287))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#DExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.3 34.0, -83.1 34.0, -83.1 34.2, -83.3 34.2, -83.3 34.0))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.3 34.0 -83.1 34.0 -83.1 34.2 -83.3 34.2 -83.3 34.0&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P008033 P008034 P0080303 P0080304 P0080305 P0080306 P0080307 P0080308 P0080313 P0080314 P0080315 P0080316 P0080317 P0080318 P0080360 P0080361 P0080362 P0080370 P0080371 P0080372))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#IPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT EMPTY</geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+
+            &lt;Point xmlns="https://www.opengis.net/gml"&gt;&lt;posList&gt;&lt;/posList&gt;&lt;/Point&gt;
+
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#D">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#DExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#DPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#DExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#DExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#D"/>
+    <geo:sfIntersects rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#FExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.4 34.4)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.4 34.4&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072281))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#APointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.4 34.3)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.4 34.3&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072287))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#PlaceOfInterest">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#L">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#LExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#LExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#LExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#G">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#GExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#GPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#GExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#GExactGeom"/>
+    <geo:rcc8ntpp rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#CExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.2 34.3, -83.0 34.3, -83.0 34.5, -83.2 34.5, -83.2 34.3))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.2 34.3 -83.0 34.3 -83.0 34.5 -83.2 34.5 -83.2 34.3&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P008004 P008005 P008007 P008008))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#HPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"></geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral"></geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#H">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#HExactGeom"/>
+    <my:hasPointGeometry rdf:resource="http://example.org/ApplicationSchema#HPointGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#HExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#HExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#GExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.5 34.2, -83.3 34.2, -83.3 34.4, -83.5 34.4, -83.5 34.2))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+
+            &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.5 34.2 -83.3 34.2 -83.3 34.4 -83.5 34.4 -83.5 34.2&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P007228 P0072271 P0072272 P0072274 P0072275 P0072277 P0072278 P0072511 P0072512 P0072514 P0072515 P0072520 P0072521 P0072522 P0072523 P0072524 P0072525 P0080060 P0080063 P0080066 P0080300 P0080303))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#hasExactGeometry">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasDefaultGeometry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#E">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#EExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#EExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#EExactGeom"/>
+    <geo:sfEquals rdf:resource="http://example.org/ApplicationSchema#E"/>
+    <geo:ehEquals rdf:resource="http://example.org/ApplicationSchema#E"/>
+    <geo:rcc8eq rdf:resource="http://example.org/ApplicationSchema#E"/>
+    <geo:sfCrosses rdf:resource="http://example.org/ApplicationSchema#A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#M">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#MExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#DPointGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Point(-83.2 34.1)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:pos&gt;-83.2 34.1&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0080343))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#EExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#LineString"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#LineString"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; LineString(-83.4 34.0, -83.3 34.3)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:LineString srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84" xmlns:gml="http://www.opengis.net/ont/gml"&gt;&lt;gml:posList&gt;-83.4 34.0 -83.3 34.3&lt;/gml:posList&gt;&lt;/gml:LineString&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0072525 P0072528 P0072552 P0072554 P0072555 P0072557 P0072581 P0080066 P0080300 P0080303))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#MExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Point"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Point"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; Point(31.95 -88.38)
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Point xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/EPSG/0/4326"&gt;&lt;gml:pos&gt;31.95 -88.38&lt;/gml:pos&gt;&lt;/gml:Point&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST (())</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.opengis.net/ont/sf#LineString">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/sf#Curve"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#K">
+    <rdf:type rdf:resource="http://example.org/ApplicationSchema#PlaceOfInterest"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#SpatialObject"/>
+    <my:hasExactGeometry rdf:resource="http://example.org/ApplicationSchema#KExactGeom"/>
+    <geo:hasDefaultGeometry rdf:resource="http://example.org/ApplicationSchema#KExactGeom"/>
+    <geo:hasGeometry rdf:resource="http://example.org/ApplicationSchema#KExactGeom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#KExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-77.089005 38.913574,-77.029953 38.913574,-77.029953 38.886321,-77.089005 38.886321,-77.089005 38.913574))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-77.089005 38.913574 -77.029953 38.913574 -77.029953 38.886321 -77.089005 38.886321 -77.089005 38.913574&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P0108424 P0108425 P0108427 P0108428 P0108503 P0108506))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#AExactGeom">
+    <rdf:type rdf:resource="http://www.opengis.net/ont/sf#Polygon"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdf:type rdf:resource="http://www.opengis.net/ont/gml#Polygon"/>
+    <geo:isEmpty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</geo:isEmpty>
+    <geo:isSimple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</geo:isSimple>
+    <geo:dimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:dimension>
+    <geo:spatialDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:spatialDimension>
+    <geo:coordinateDimension rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</geo:coordinateDimension>
+    <geo:hasSerialization rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.6 34.1, -83.2 34.1, -83.2 34.5, -83.6 34.5, -83.6 34.1))
+
+    </geo:hasSerialization>
+    <geo:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">
+
+            &lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt; Polygon((-83.6 34.1, -83.2 34.1, -83.2 34.5, -83.6 34.5, -83.6 34.1))
+
+    </geo:asWKT>
+    <geo:asGML rdf:datatype="http://www.opengis.net/ont/geosparql#gmlLiteral">
+        &lt;gml:Polygon xmlns:gml="http://www.opengis.net/ont/gml" srsName="http://www.opengis.net/def/crs/OGC/1.3/CRS84"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;-83.6 34.1 -83.2 34.1 -83.2 34.5 -83.6 34.5 -83.6 34.1&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+    </geo:asGML>
+    <geo:asDGGS>CELLLIST ((P007224 P007225 P007227 P007228 P007251 P007252 P008003 P008006 P008030 P0072232 P0072235 P0072238 P0072262 P0072265 P0072268 P0072502 P0072505 P0072508 P0072532 P0072535 P0072540 P0072541 P0072542 P0072543 P0072544 P0072545 P0072550 P0072551 P0072552 P0072553 P0072554 P0072555 P0080040 P0080043 P0080046 P0080070 P0080073 P0080076 P0080310 P0080313 P0080316 P0080330 P0080331 P0080332 P0080333 P0080334 P0080335 P0080340 P0080343))</geo:asDGGS>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ApplicationSchema#hasPointGeometry">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+  </rdf:Description>
+</rdf:RDF>
