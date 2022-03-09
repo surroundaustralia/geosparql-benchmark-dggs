@@ -1,0 +1,1 @@
+java -jar /mnt/sda2/Surround/jena-source/jena/jena-fuseki2/jena-fuseki-geosparql/target/jena-fuseki-geosparql-4.5.0-SNAPSHOT.jar -rf "/mnt/sda2/Surround/geosparql-benchmark-dggs/output/dataset_dggs_level_7.ttl"
