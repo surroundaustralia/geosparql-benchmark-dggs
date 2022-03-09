@@ -1,0 +1,7 @@
+version: "3"
+services:
+
+  jena-fuseki:
+    image: 680471986828.dkr.ecr.ap-southeast-2.amazonaws.com/dggs-geosparql:latest
+    ports:
+      - "3030:3030"
